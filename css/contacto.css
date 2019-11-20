@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/background.png)
+}
+
+/* Header */
+
+/* Fin Header */
+.contactanos{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+
+label{
+    font-family: Nunito;
+}
+
+
+/* FORM CONTACT */
+.contact{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4%!important;
+    border-radius: 10px;
+}
+form{
+    background-color: grey;
+    padding: 5%;
+}
+
+/* IFRAME GOOGLE MAPS */
+
+iframe{
+    width: 50%;
+    margin-left: 25%;
+    height: 30vh;
+    margin-top: 5%;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 768px){
+    img{
+        display: none;
+    }
+    .header, .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    iframe{
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    button{
+        margin: 5% 0;
+    }
+}

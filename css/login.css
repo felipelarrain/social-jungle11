@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+._boton{
+    background-color: #C16337;
+    color: white;
+}
+._navbar{
+    width: 100%;
+    background-color: #3F4444;
+    color: white;
+    box-sizing: border-box;
+   
+}
+._logo{
+    list-style-type: none;
+    position: relative;
+    margin: 1%;
+}
+._logo a{
+    color: white;
+}
+._menus{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+    
+    width: 27%;
+    font-size: 1.2rem;
+    margin-right: 5%;
+    position: relative;
+     
+}
+._menus a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: justify;
+}
